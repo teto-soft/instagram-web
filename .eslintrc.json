@@ -6,13 +6,13 @@
     "prettier"
   ],
   "rules": {
-  "import/order": [
-    "error",
-    {
-      "alphabetize": {
-        "order": "asc"
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        }
       }
-    }
-  ]
-}
+    ]
+  }
 }
