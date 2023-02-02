@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c00bee8-e2d0-4a3b-8e42-b6acc281c0e2" name="変更" comment="prettier eslint を設定">
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum.ts" afterDir="false" />
+    <list default="true" id="3c00bee8-e2d0-4a3b-8e42-b6acc281c0e2" name="変更" comment="jest 導入">
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +44,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/teto/dev/play/instagram-web/node_modules/jest",
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/Users/teto/dev/play/instagram-web/node_modules/prettier",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
@@ -58,6 +57,27 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="sum.adds 1 + 2 to equal 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/sum.test.ts" />
+      <test-names>
+        <test-name value="sum" />
+        <test-name value="adds 1 + 2 to equal 3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.sum.adds 1 + 2 to equal 3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
@@ -69,7 +89,7 @@
       <workItem from="1675367946437" duration="3876000" />
       <workItem from="1675374671832" duration="21000" />
       <workItem from="1675374713963" duration="61000" />
-      <workItem from="1675374778382" duration="836000" />
+      <workItem from="1675374778382" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="typescript 導入">
       <created>1675371012634</created>
@@ -92,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675374976912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jest 導入">
+      <created>1675375660004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675375660004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +129,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="typescript 導入" />
     <MESSAGE value="prettier eslint を設定" />
-    <option name="LAST_COMMIT_MESSAGE" value="prettier eslint を設定" />
+    <MESSAGE value="jest 導入" />
+    <option name="LAST_COMMIT_MESSAGE" value="jest 導入" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sum.ts</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
